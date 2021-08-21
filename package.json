@@ -19,8 +19,8 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint src/*.js --fix"
+      "npx prettier --write",
+      "eslint --fix"
     ]
   },
   "browserslist": {
